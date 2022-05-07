@@ -1,0 +1,213 @@
+*{
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500, medium;
+}
+
+.outer{
+    display: flex;
+    max-width: 1440px;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    padding: 32px 0 32px 0;
+    justify-content: center;
+ 
+}
+
+.cellphone{
+    width: 380px;
+    height: 581px;
+    align-self: center;
+    margin: 0px 32px 12px 0px
+}
+
+
+/* start main login panel */
+
+.log-interface{
+    display: flex;
+    width: 350px;
+    height: 329px;
+    position: relative;
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+
+    
+}
+
+.inner-log-interface{
+    border: #dbdbdb solid 1px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.logo{ /* instagram logo handwritten */
+    width: 175px;
+    height: 61px;
+    margin-top: 36px;
+    margin-bottom: 16px;
+    
+}
+/* log in itens */
+.padding-div{
+    padding: 16px 16px 20px; 
+    width: 100%;
+
+}
+.padding-div ul{
+
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-left: 0px;
+    padding-top: 12px;
+    border: 0px;
+    border-color: #dbdbdb;
+    border-style: solid;
+    
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    
+    
+}
+
+.padding-div ul li {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 12px;
+}
+
+.padding-div ul li p{
+    font-weight: 500;
+}
+.padding-div img { /* profile pictures */
+    border-radius: 100px;
+    width: 36px;
+    height: 36px;
+    border: solid 1px #efefef;
+    margin-right: 12px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.btn-entrar{
+    display: flex;
+    margin-left: auto;
+    background-color: #0095F6;
+    border-radius: 4px;
+    height: 30px;
+    width: 58px;
+    border: 1px solid transparent;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn-entrar a{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Robot', sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+}
+/* end login itens */
+
+.accounts-gerenciar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 34px 0 24px
+}
+
+.accounts-gerenciar a{
+    text-decoration: none;
+    color: #0095F6;
+    font-weight: 500;
+}
+
+.accounts-options{
+    height: 68px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid #dbdbdb 1px;
+    margin-bottom: 10px;
+
+}
+.accounts-options a{
+    text-decoration: none;
+    color: #0095F6;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.apps{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.apps p{
+    margin: 10px 50px 10px 50px
+}
+
+.apps img{
+    width: 136px;
+    height: 40px;
+    margin: 10px 5px 5px 10px;
+}
+
+/* fim interface */
+
+.footer{
+    display: flex;
+    justify-items: center;
+    
+    align-items: center;
+    flex-direction: column;
+}
+
+.footer ul{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    
+
+    align-items: center;
+    justify-content: center;
+}
+
+.footer ul li {
+    color: #8e8e8e;
+    font-size: 12px;
+    margin: 0 8px 12px 8px;
+}
+
+
+@media(max-width: 500px){
+
+    .cellphone{
+        display: none;
+    }
+
+    .log-interface{
+        height: 100%;
+        
+    }
+}
